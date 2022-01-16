@@ -1,0 +1,387 @@
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+@font-face {
+  font-family: popreg;
+  src: url("/src/fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: popbold;
+  src: url("/src/fonts/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: popmd;
+  src: url("/src/fonts/Poppins-Medium.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.calculator {
+  display: flex;
+  padding-top: 150px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.cal_tittle {
+  color: rgba(218, 165, 32, 1);
+  font-weight: bold;
+  font-size: 30px;
+  font-family: popbold;
+  width: 54%;
+  letter-spacing: 1px;
+  line-height: 46px;
+}
+.start_cal_btn {
+  width: 190px;
+  height: 40px;
+  background-color: rgba(218, 165, 32, 1);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-family: popreg;
+}
+.start_cal_btn:hover {
+  background-color: transparent;
+  color: rgba(218, 165, 32, 1);
+  border: 1.5px solid rgba(218, 165, 32, 1);
+  transition: all 0.45s;
+}
+
+.cal_prah {
+  color: rgba(128, 128, 128, 1);
+  font-family: popreg;
+  font-weight: 700;
+  font-size: 12px;
+  width: 80%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  letter-spacing: 1px;
+  line-height: 22px;
+}
+.cal_data {
+  margin-top: 30px;
+}
+.aboutus {
+  display: flex;
+  background-color: rgba(255, 241, 205, 1);
+  padding: 70px;
+  margin-top: 70px;
+}
+.about_img {
+  height: 340px;
+  margin-top: 38px;
+}
+.about_title {
+  font-weight: 700;
+  font-family: popbold;
+  color: rgba(218, 165, 32, 1);
+  line-height: 45px;
+  font-size: 30px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+.black_content {
+  color: black;
+  font-family: popbold;
+  line-height: 2;
+}
+.yellow_content {
+  color: rgba(218, 165, 32, 1);
+  font-family: popbold;
+  line-height: 2;
+}
+.about_content {
+  font-family: popreg;
+  color: rgba(128, 128, 128, 1);
+  padding-left: 40px;
+  line-height: 27px;
+  font-size: 15px;
+}
+.feature_heading {
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  font-family: popbold;
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+.feature {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.feature_card {
+  background: #ffffff;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+  border-top: 2px solid rgba(218, 165, 32, 1);
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 40px;
+  height: 380px;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+.text {
+  font-family: popbold;
+  font-size: 16px;
+  color: black;
+}
+.feature_description {
+  font-family: popreg;
+  font-size: 14px;
+  line-height: 22px;
+  padding-top: 15px;
+}
+.wrap_img {
+  padding-bottom: 30px;
+}
+.react-multiple-carousel__arrow {
+  display: none;
+}
+.react-multi-carousel-item {
+  margin-bottom: 10px;
+}
+.investment_flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+.dealer_title {
+  font-family: popbold;
+  font-size: 20px;
+  color: rgba(218, 165, 32, 1);
+}
+.invest_title {
+  color: black;
+  font-family: popbold;
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 25px;
+}
+.dealer_discrption {
+  color: black;
+  font-family: popreg;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 27px;
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
+.dealer_button {
+  width: 170px;
+  height: 38px;
+  background-color: rgba(218, 165, 32, 1);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-family: popreg;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 11px;
+}
+.dealer_button:hover {
+  background-color: transparent;
+  color: rgba(218, 165, 32, 1);
+  border: 2px solid rgba(218, 165, 32, 1);
+  transition: all 0.45s;
+}
+.next_invest {
+  display: flex;
+  justify-content: space-evenly;
+  /* border-top: 1px solid #d2d2d2; */
+  padding-top: 40px;
+}
+.investment_flex {
+  margin-bottom: 50px;
+}
+.investment_container {
+  text-align: center;
+  padding-bottom: 80px;
+}
+.dealer_div {
+  width: 40%;
+}
+.footer {
+  display: flex;
+  background-color: rgba(0, 0, 0, 1);
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  box-shadow: 0px -4px 12px rgba(0, 0, 0, 0.1);
+  padding-top: 45px;
+}
+.get_title {
+  color: rgba(218, 165, 32, 1);
+  font-family: popreg;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.get_smalltext {
+  color: #fff;
+  font-family: popreg;
+  font-size: 14px;
+}
+.get_field_title {
+  color: rgba(218, 165, 32, 1);
+  font-family: popreg;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+}
+.massage_area {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 0.25rem;
+  outline: none;
+}
+.massage_area::placeholder {
+  font-family: popreg;
+  font-size: 14px;
+  padding-left: 9px;
+  padding-top: 4px;
+}
+.get_fields {
+  width: 50%;
+}
+.footer_inputs::placeholder {
+  font-family: popreg;
+  color: rgba(117, 117, 117, 1);
+  font-size: 14px;
+}
+.footer_inputs {
+  outline: none;
+}
+.dealer_button2 {
+  width: 170px;
+  height: 38px;
+  background-color: rgba(218, 165, 32, 1);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-family: popreg;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 11px;
+  float: right;
+  margin-top: 15px;
+}
+@media only screen and (max-width: 768px) {
+  .calculator {
+    flex-wrap: wrap;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: center;
+  }
+  .cal_data {
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 90px;
+  }
+  .cal_tittle {
+    width: 100%;
+  }
+  .cal_prah {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .aboutus {
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  .about_img {
+    height: 431px;
+    width: 98%;
+    margin-top: 38px;
+    margin-bottom: 90px;
+  }
+  .about_content {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 40px;
+  }
+  .feature {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .cal_img {
+    text-align: center;
+  }
+  .cal_img img {
+    width: 80%;
+  }
+  .calculator {
+    padding-top: 160px;
+  }
+  .cal_data {
+    margin-top: 0;
+    margin-bottom: 85px;
+  }
+  .cal_tittle {
+    line-height: 29px;
+    font-size: 21px;
+  }
+  .cal_prah {
+    padding-left: 25px;
+    padding-right: 25px;
+    line-height: 21px;
+    font-size: 11px;
+  }
+  .about_img img {
+    width: 90%;
+  }
+  .about_img {
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .about_content {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .investment_flex {
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+  .next_invest {
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0;
+  }
+  .dealer_div {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .get_fields {
+    width: 90%;
+  }
+  .get_text {
+    margin-bottom: 50px;
+  }
+  .get_field_title {
+    display: none;
+  }
+  .Navbar {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
