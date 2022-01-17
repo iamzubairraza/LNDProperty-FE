@@ -2,17 +2,17 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import Account from "./Account";
 import { Link } from "react-router-dom";
-import { Dropdown, Modal, Button } from "react-bootstrap";
+import { Modal } from "react-bootstrap";
 import { Row } from "react-bootstrap";
 import { Form } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [open, setOpen] = useState(false);
+  // const [open, setOpen] = useState(false);
   const [showModal, setShowModal] = useState(false);
   const [validated, setValidated] = useState(false);
-  const [showheader, setShowheader] = useState(true);
-  const [checked1, setChecked1] = React.useState(false);
+  // const [showheader, setShowheader] = useState(true);
+  // const [checked1, setChecked1] = React.useState(false);
   const [toggleState, setToggleState] = useState(1);
   const toggleTab = (index) => {
     setToggleState(index);
@@ -35,7 +35,7 @@ const Navbar = () => {
         // size="lg"
         onHide={() => {
           setShowModal(false);
-          setShowheader(true);
+          // setShowheader(true);
         }}
         aria-labelledby="contained-modal-title-vcenter"
         centered
@@ -97,12 +97,12 @@ const Navbar = () => {
                     LOGIN
                   </button>
                 </Form>
-                <p className="already_account">
+                {/* <p className="already_account">
                   Already have an Account ?
                   <Link to="/account">
                     <span className="already_span">CREATE ACCOUNT</span>
                   </Link>
-                </p>
+                </p> */}
               </div>
 
               <div
@@ -217,18 +217,22 @@ const Navbar = () => {
       </Modal>
       <div className="main_nav">
         <div className="Navbar">
-          <img className="intestlogo" src="/images/investlogo.svg" />
+          <img className="intestlogo" src="/images/investlogo.svg" alt="" />
           {/* <span className="nav-logo">DevLHB</span> */}
           <div className={`nav-items ${isOpen && "open"}`}>
             <Link to="/home">Home</Link>
-            <a href="/saveditems">Saved items</a>
+            <a href="/saveditems">
+              Saved items
+              <img className="arrow" src="/images/dropimg.svg" alt="" />
+            </a>
+
             <Link to="/about">About</Link>
-            <a to="/login">Contact Us</a>
+            <a href="/login">Contact Us</a>
             <a href="/contact">Login</a>
             <button
               onClick={() => {
                 setShowModal(true);
-                setShowheader(false);
+                // setShowheader(false);
               }}
               className="creat_accout"
             >

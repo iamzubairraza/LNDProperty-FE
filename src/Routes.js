@@ -1,8 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Header from "./Header";
-import Account from "./Components/Navbar/Account";
 import LandingPage from "./LandingPage";
+import calculations from "./pages/calculations";
 
 const Routes = () => {
   return (
@@ -10,6 +9,7 @@ const Routes = () => {
       <Router>
         <Switch>
           <Route exact path="/" component={LandingPage} />
+          <Route path="/calculations" component={calculations} />
         </Switch>
       </Router>
     </div>

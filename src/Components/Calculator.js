@@ -1,5 +1,6 @@
 import React from "react";
-import App from "../App.css";
+import { Link } from "react-router-dom";
+import "../App.css";
 const Calculator = () => {
   return (
     <div className="calculator">
@@ -12,10 +13,12 @@ const Calculator = () => {
           lacus arcu velit amet justo, lacus. Turpis amet praesent venenatis
           tortor. Viverra in tincidunt suscipit suspendisse morbi erat cursus.
         </p>
-        <button className="start_cal_btn">START CALCULATE</button>
+        <Link to="/calculations">
+          <button className="start_cal_btn">Start Calculate</button>
+        </Link>
       </div>
       <div className="cal_img">
-        <img src="/images/cal_person.svg" />
+        <img src="/images/cal_person.svg" alt="" />
       </div>
     </div>
   );

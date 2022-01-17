@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import { Form } from "react-bootstrap";
 import { Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import { Col } from "react-bootstrap";
 const Account = () => {
-  const [checked1, setChecked1] = React.useState(false);
+  //   const [checked1, setChecked1] = React.useState(false);
   const [validated, setValidated] = useState(false);
   const handleSubmit = (event) => {
     const form = event.currentTarget;
@@ -114,9 +113,6 @@ const Account = () => {
         <button className="loginbtn" type="submit">
           CREATE ACCOUNT
         </button>
-        <p className="already_account">
-          Already have an Account ?<span className="already_span">LOGIN</span>
-        </p>
       </Form>
     </div>
   );

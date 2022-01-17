@@ -54,7 +54,37 @@ a:hover {
   border: 1.5px solid rgba(218, 165, 32, 1);
   transition: all 0.45s;
 }
-
+.PURPOSE_PROPERTY {
+  padding-left: 40px;
+  display: flex;
+}
+.www {
+  display: flex;
+  margin-top: 45px;
+}
+.dollerbtn {
+  background-color: rgba(218, 165, 32, 1) !important;
+  color: #fff !important;
+}
+.doller {
+  background-color: black;
+  position: absolute;
+  color: white;
+  font-size: 22px;
+  width: 30px;
+  height: 37px;
+  border-radius: 2px;
+  padding-left: 10px;
+}
+.purposebtn {
+  width: 150px;
+  height: 77px;
+  /* margin-right: 10px; */
+  color: rgba(128, 128, 128, 1);
+  height: 37px;
+  background-color: transparent;
+  border: 1px solid rgba(218, 165, 32, 1);
+}
 .cal_prah {
   color: rgba(128, 128, 128, 1);
   font-family: popreg;
@@ -242,6 +272,27 @@ a:hover {
   border-radius: 0.25rem;
   outline: none;
 }
+
+.state {
+  padding-left: 53px;
+}
+.state_title {
+  font-family: popbold;
+  font-size: 15px;
+  padding-left: 40px;
+}
+.statebtn {
+  width: 150px;
+  height: 77px;
+  /* margin-right: 10px; */
+  color: rgba(128, 128, 128, 1);
+  height: 37px;
+  background-color: transparent;
+  border: 1px solid rgba(218, 165, 32, 1);
+}
+.state_div {
+  width: 82%;
+}
 .massage_area::placeholder {
   font-family: popreg;
   font-size: 14px;
@@ -272,6 +323,17 @@ a:hover {
   line-height: 11px;
   float: right;
   margin-top: 15px;
+}
+.calculations_heading {
+  color: rgba(218, 165, 32, 1);
+  font-size: 18px;
+  padding-top: 100px;
+  width: 39%;
+  padding-left: 40px;
+  font-family: popbold;
+  letter-spacing: 1px;
+  line-height: 27px;
+  margin-bottom: 20px;
 }
 @media only screen and (max-width: 768px) {
   .calculator {

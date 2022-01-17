@@ -89,7 +89,7 @@ We'll allocate your cash accordingly.`,
           {data.map((el) => {
             return (
               <div className="feature_card">
-                <img class="wrap_img" src={el.image}></img>
+                <img class="wrap_img" alt="" src={el.image}></img>
                 <div class="text">{el.text}</div>
                 <div className="about_paraghap">
                   <div className="feature_description">{el.description}</div>
