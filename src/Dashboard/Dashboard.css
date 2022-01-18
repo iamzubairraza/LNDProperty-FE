@@ -1,0 +1,582 @@
+body {
+  margin: 0%;
+  padding: 0;
+  /* background-color: rgba(245, 251, 255, 1) !important; */
+}
+.sidebar {
+  width: 20%;
+  background: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15) !important;
+  height: 100vh;
+}
+ul {
+  margin: 0;
+}
+.addad {
+  font-weight: 600;
+}
+.notificaitions {
+  display: flex;
+  align-items: center;
+}
+.linksname {
+  font-family: popreg;
+  font-size: 13px;
+}
+.linksname:hover {
+  background-color: #0d63f3;
+  color: #ffffff;
+}
+
+.secondside {
+  display: none;
+  position: absolute;
+}
+.imp {
+  list-style: none;
+  height: 35px;
+  font-family: popreg;
+
+  color: #bdbdbd;
+}
+ul li {
+  list-style: none;
+}
+.div2 {
+  display: flex;
+  width: 100%;
+}
+.sec-div {
+  width: 80%;
+  background-color: #fff;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  background: #ffffff;
+  box-shadow: 0px 4px 12px rgb(0 0 0 / 15%);
+  padding-bottom: 5px;
+}
+.dropmenu {
+  border-radius: 6px;
+}
+.input-text {
+  width: 310px;
+  height: 39px;
+  background-color: rgba(36, 57, 77, 0.1);
+  padding-left: 12px;
+  border: none;
+  outline: none;
+  position: relative;
+  border-radius: 6px;
+  margin-left: 30px;
+}
+
+.noti {
+  padding-right: 17px;
+  height: 21px;
+}
+.admi {
+  height: 34px;
+}
+
+.main2 {
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 42px;
+  padding-bottom: 30px;
+}
+.btn:focus {
+  box-shadow: none;
+}
+.Appointments {
+  background-color: #0d63f3;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 7px;
+  font-family: popreg;
+  color: #ffffff;
+  font-size: 11px;
+}
+.Appointments:hover {
+  background: transparent;
+  color: #0d63f3;
+  border: 2px solid #0d63f3;
+}
+.heading1 {
+  font-family: popreg;
+  font-size: 16px;
+  color: #0d63f3;
+  font-weight: 600;
+}
+
+.home {
+  color: #a7c5eb;
+}
+.home span {
+  color: #00b4ff;
+}
+
+.main3 {
+  background-color: white;
+  width: 100%;
+
+  border-radius: 7px;
+  overflow: auto;
+  padding: 0 10px;
+}
+.main3::-webkit-scrollbar {
+  display: none;
+}
+.details {
+  font-family: "poppinsrg";
+  color: #bdbdbd;
+  font-size: 12px;
+  line-height: 18px;
+}
+.line {
+  background-color: rgba(0, 71, 99, 1);
+  height: 0.1px;
+  width: 100%;
+}
+.details {
+  display: flex;
+}
+.details img {
+  padding-right: 34px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(0, 71, 99, 1);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  background-color: #daa520;
+  color: #fff;
+
+  flex-shrink: 0;
+}
+.threeline {
+  display: none;
+}
+.check {
+  width: 50px;
+  flex-shrink: 0;
+  padding-left: 30px;
+}
+.appointmentsec {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 15px 0;
+  flex-shrink: 0;
+}
+.times {
+  display: flex;
+  flex-shrink: 0;
+}
+.name {
+  width: 170px;
+  font-family: popreg;
+  color: #fff;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.status1 {
+  width: 60px;
+  font-family: popreg;
+  color: #fff;
+
+  flex-shrink: 0;
+  font-size: 12px;
+}
+.status {
+  width: 60px;
+  font-family: popreg;
+  color: #fff;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.app {
+  width: 115px;
+  font-size: 12px;
+  font-family: popreg;
+  color: #fff;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.addad {
+  width: 115px;
+  font-size: 12px;
+  font-family: popreg;
+  color: #fff;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.act {
+  width: 70px;
+  font-family: popreg;
+  color: #0d63f3;
+  font-weight: 600;
+  flex-shrink: 0;
+  padding-right: 30px;
+}
+.appoints {
+  width: 100px;
+  font-family: popreg;
+  flex-shrink: 0;
+}
+.times {
+  width: 170px;
+}
+.status {
+  width: 60px;
+  font-size: 12px;
+
+  font-weight: 600;
+}
+.appoints {
+  width: 115px;
+  font-family: popreg;
+  font-size: 12px;
+  color: #a7c5eb;
+}
+.addad1 {
+  width: 115px;
+  font-size: 12px;
+  font-family: popreg;
+
+  color: #a7c5eb;
+  flex-shrink: 0;
+}
+.Actionimgs {
+  width: 70px;
+  flex-shrink: 0;
+  display: flex;
+  padding-right: 30px;
+}
+.personal {
+  font-size: 12px;
+  font-family: popreg;
+  color: rgba(0, 71, 99, 1);
+  flex-shrink: 0;
+}
+.docimg {
+  padding-right: 10px;
+  flex-shrink: 0;
+}
+.sidebar {
+  padding-top: 19px;
+  padding-left: 11px;
+  background: #ffffff;
+  box-shadow: 0px 4px 12px rgb(0 0 0 / 15%) !important;
+}
+
+.docaddress {
+  font-weight: 800;
+  color: #0d63f3;
+  font-size: 15px;
+  flex-shrink: 0;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+.email {
+  color: #a7c5eb;
+
+  font-size: 12px;
+  flex-shrink: 0;
+}
+.inputcontainer img {
+  position: absolute;
+  padding-left: 12px;
+  padding-top: 10px;
+}
+ul {
+  padding-left: 0;
+}
+.logoimg {
+  height: 37px;
+  padding-bottom: 74px;
+}
+.line2 {
+  height: 123px;
+  width: 10px;
+  background-color: rgba(36, 57, 77, 0.1);
+}
+.slide-items {
+  display: flex;
+  padding-top: 20px;
+}
+.items {
+  padding-left: 23px;
+  font-family: popreg;
+  color: rgba(0, 71, 99, 1);
+  font-size: 12px;
+  font-weight: 500;
+}
+.settingsiimg img {
+  margin-top: -13px;
+}
+.calender {
+  font-family: popreg;
+  color: rgba(0, 71, 99, 1);
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.setting {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.systemhead {
+  display: none;
+  color: rgba(167, 197, 235, 1);
+  padding-bottom: 25px;
+  font-family: popreg;
+
+  font-weight: 600;
+  font-size: 13px;
+}
+.circlecard {
+  border-radius: 25px;
+}
+.maincardss {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.patientcardd {
+  background: #ffffff;
+  /* shadow */
+  width: 25%;
+  box-shadow: 5px 6px 18px rgba(0, 0, 0, 0.07);
+  border-radius: 32px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 15px;
+  height: 320px;
+  margin-top: 10px;
+}
+.cardsdetails {
+  text-align: center;
+}
+.cardsdetails {
+  padding-bottom: 30px;
+  font-family: popbo;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.patienttext {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 13px;
+  font-family: popreg;
+}
+.settingsec {
+  display: flex;
+  align-items: center;
+}
+.set {
+  padding-left: 20px;
+  padding-left: 20px;
+  font-family: popreg !important;
+  color: #0d63f3;
+  font-weight: 600;
+  cursor: pointer;
+}
+.files {
+  padding-left: 20px;
+  font-family: popreg;
+  color: rgba(0, 71, 99, 1);
+
+  font-weight: 600;
+}
+.lebalapp {
+  font-family: popreg !important;
+  color: #daa520;
+  padding-left: 17px;
+  font-weight: 600;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    padding-left: 0;
+    padding-top: 0;
+  }
+  .patientcardd {
+    width: 37%;
+    margin-top: 10 px;
+  }
+
+  .home {
+    font-size: 12px;
+  }
+  .sec-div {
+    width: 100%;
+    padding-left: 12px;
+  }
+  .main3 {
+    height: auto;
+    flex-shrink: 0;
+    padding: 0 10px;
+  }
+  .sidebar {
+    width: 150px;
+  }
+  .email {
+    font-size: 10px;
+  }
+  .docaddress {
+    font-size: 14px;
+  }
+  .header {
+    margin-top: 0;
+  }
+  .noti {
+    height: 36px;
+    padding-right: 16px;
+  }
+  .admi {
+    height: 36px;
+  }
+  .heading1 {
+    font-size: 14px;
+    color: #0d63f3;
+  }
+  .main2 {
+    padding-top: 90px;
+    padding-bottom: 30px;
+  }
+  .div2 {
+    width: 100%;
+  }
+
+  .name {
+    width: 188px;
+  }
+}
+
+@media (max-width: 660px) {
+  .Appointments {
+    width: 120px;
+    padding: 0;
+    height: 45px;
+  }
+  .input-text {
+    width: 250px;
+  }
+  .status {
+    width: 80px;
+  }
+  .threeline {
+    display: block;
+  }
+  .patientcardd {
+    width: 80%;
+  }
+  .maincardss {
+    justify-content: center;
+  }
+}
+@media (max-width: 575.98px) {
+  .input-text {
+    width: 188px;
+    height: 37px;
+    border-radius: 4px;
+  }
+  .sidebarActive {
+    width: 100%;
+    background-color: #0d63f3;
+    height: 100vh;
+    display: block;
+  }
+  .noti {
+    height: 27px;
+    padding-right: 6;
+  }
+  .files {
+    padding-left: 0;
+  }
+  .patientcardd {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+
+  .admi {
+    height: 29px;
+  }
+  .times {
+    width: 188px;
+  }
+  .inputcontainer {
+    display: none;
+  }
+  .maincardss {
+    justify-content: center;
+  }
+  .threeline {
+    display: block;
+  }
+  .name {
+    width: 188px;
+  }
+  .header {
+    margin-top: 17px;
+    padding-top: 0;
+    width: fit-content;
+  }
+  .div2 {
+    padding-left: 0;
+    width: 100%;
+  }
+  .sec-div {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .secondside {
+    background: #ffffff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    width: 220px;
+    height: 100vh;
+    padding-left: 14px;
+    color: white;
+    padding-right: 14px;
+    padding-top: 0;
+  }
+  .Appointments {
+    height: 48px;
+    width: 146px;
+    padding: 0;
+  }
+  .Actionimgs {
+    display: flex;
+  }
+  .close {
+    height: 16px;
+    position: absolute;
+    right: 19px;
+    top: 24px;
+  }
+  .crow {
+    padding-top: 70px;
+  }
+  .btn {
+    padding: 0;
+  }
+  .check {
+    padding-right: 50px;
+  }
+  .div2 {
+    min-height: 100vh;
+  }
+}
