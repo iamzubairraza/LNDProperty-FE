@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../Components/Navbar/Navbar";
 import { Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const calculations = () => {
   return (
@@ -69,21 +70,26 @@ const calculations = () => {
         <div>
           <h4 className="state_title">TYPE OF PROPERTY</h4>
           <div className="PURPOSE_PROPERTY">
-            <div className="">
+            <div className="flex_div">
               <button className="purposebtn">ESTABLISHED</button>
               <button className="purposebtn">NEW HOME</button>
               <button className="purposebtn">LAND</button>
+              <div className="pricebtn">
+                <div className="doller">$</div>
+                <button className="purposebtn dollerbtn">2000</button>
+              </div>
             </div>
           </div>
         </div>
         <div>
-          <div className="PURPOSE_PROPERTY">
-            <div className="">
-              <div className="doller">$</div>
-              <button className="purposebtn dollerbtn">2000</button>
-            </div>
-          </div>
+          <div className="PURPOSE_PROPERTY"></div>
         </div>
+      </div>
+      <div className="total">
+        <Link to="/results">
+          <button className="rusltbtn purposebtn">RESULTS</button>
+        </Link>
+        <button className="clear">CLEAR</button>
       </div>
     </div>
   );

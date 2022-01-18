@@ -84,6 +84,8 @@ a:hover {
   height: 37px;
   background-color: transparent;
   border: 1px solid rgba(218, 165, 32, 1);
+  font-weight: 700;
+  font-size: 14px;
 }
 .cal_prah {
   color: rgba(128, 128, 128, 1);
@@ -289,6 +291,8 @@ a:hover {
   height: 37px;
   background-color: transparent;
   border: 1px solid rgba(218, 165, 32, 1);
+  font-size: 14px;
+  font-weight: 700;
 }
 .state_div {
   width: 82%;
@@ -335,6 +339,144 @@ a:hover {
   line-height: 27px;
   margin-bottom: 20px;
 }
+.total {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 40px;
+}
+.rusltbtn {
+  background-color: rgba(218, 165, 32, 1);
+  color: #fff;
+  width: 27%;
+  margin-right: 30px;
+}
+.rusltbtn:hover {
+  background-color: transparent;
+  color: rgba(218, 165, 32, 1);
+  border: 1.5px solid rgba(218, 165, 32, 1);
+  transition: all 0.45s;
+}
+.clear {
+  background-color: transparent;
+  font-size: 14px;
+  font-family: popbold;
+  font-weight: 700;
+  color: rgba(128, 128, 128, 1);
+}
+.flex_div {
+  display: flex;
+}
+.pricebtn {
+  padding-left: 20px;
+}
+.ruslt_title {
+  padding-top: 80px;
+  text-align: center;
+  font-family: popbold;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.bloc-tabs-width {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.cash_flex {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #808080;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+.cash_details {
+  width: 17%;
+  display: flex;
+}
+.cash_flex2 {
+  display: flex;
+  justify-content: space-between;
+}
+.cash_title {
+  color: rgba(218, 165, 32, 1);
+  font-size: 14px;
+  font-weight: 900;
+  font-family: popreg;
+  letter-spacing: 1px;
+}
+.loan_title {
+  color: rgba(218, 165, 32, 1);
+  font-size: 14px;
+  font-weight: 900;
+  font-family: popreg;
+  letter-spacing: 1px;
+}
+.cash_flex_title {
+  font-size: popreg;
+  font-size: 14px;
+  color: black;
+  font-weight: 600;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+.price {
+  color: rgba(218, 165, 32, 1);
+}
+.price2 {
+  color: rgba(218, 165, 32, 1);
+  padding-right: 5px;
+}
+.cash_div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cashbtn {
+  background-color: rgba(218, 165, 32, 1);
+  color: #fff;
+  width: 70px;
+  height: 40px;
+}
+.loan_payment {
+  display: flex;
+  padding-top: 30px;
+  justify-content: space-around;
+  margin-left: -21px;
+  align-items: center;
+}
+.loanbtn {
+  background-color: rgba(218, 165, 32, 1);
+  color: #fff;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 170px;
+  height: 38px;
+  font-size: 15px;
+  font-family: popreg;
+}
+.flex_loan {
+  display: flex;
+}
+.loan_payment_title {
+  font-size: 14px;
+  color: black;
+  font-weight: 600;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+.save_result_items {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  /* display: flex; */
+  margin-top: 50px;
+}
+.loan_tabs {
+  display: flex;
+  width: 50%;
+}
+
 @media only screen and (max-width: 768px) {
   .calculator {
     flex-wrap: wrap;
@@ -445,5 +587,20 @@ a:hover {
   .Navbar {
     padding-left: 15px !important;
     padding-right: 15px !important;
+  }
+  .calculations_heading {
+    width: 100%;
+  }
+  .state_div {
+    width: 100%;
+  }
+  .www {
+    flex-wrap: wrap;
+  }
+  .flex_div {
+    flex-wrap: wrap;
+  }
+  .pricebtn {
+    padding-left: 0;
   }
 }
